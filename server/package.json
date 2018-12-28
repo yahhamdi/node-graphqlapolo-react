@@ -1,0 +1,57 @@
+{
+  "name": "testtechnique",
+  "version": "1.0.0",
+  "description": "Test technique NodeJS, GraphQL, MongoDB, Apollo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node",
+    "dev": "webpack -wd"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "joi": "^14.0.4",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.8",
+    "prop-types": "^15.6.2",
+    "request": "^2.88.0",
+    "validator": "^10.8.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4",
+    "webpack": "^4.23.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/hoyez/test-technique.git"
+  },
+  "keywords": [
+    "Test",
+    "technique",
+    "NodeJS",
+    "GraphQL",
+    "MongoDB",
+    "Redux"
+  ],
+  "author": "Yahyaoui Hamdi",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hoyez/test-technique#readme"
+}

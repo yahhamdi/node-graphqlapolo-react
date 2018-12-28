@@ -1,0 +1,40 @@
+{
+  "name": "testtechnique-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "dev": "webpack -wd"
+  },
+  "author": "Hamdi Yahyaoui",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.2.0",
+    "apollo-datasource-rest": "^0.2.0",
+    "apollo-server": "^2.2.2",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^5.9.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "jsonwebtoken": "^8.4.0",
+    "nodemon": "^1.18.6",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.27.0"
+  }
+}
